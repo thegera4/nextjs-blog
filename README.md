@@ -1,6 +1,6 @@
 ## Personal Blog Project
 
-In this project, I built a website for my own personal blog taking advantage of NextJs features like file base routing, server side rendering and dynamic paths.
+In this project, I built a website for my own personal blog taking advantage of NextJs features like file base routing, server side rendering and dynamic paths. I'm also using a mongoDb database to store the message that you send me in the contact form!
 
 You can visit the webpage an try it here: [Go to my blog](https://nextjs-blog-flax-theta.vercel.app/)
 
