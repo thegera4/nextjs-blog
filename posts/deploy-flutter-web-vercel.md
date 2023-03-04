@@ -8,13 +8,13 @@ isFeatured: true
 
 Flutter cada vez toma más fuerza en el mundo de la programación, y es que con Flutter puedes crear aplicaciones de escritorio, móviles y web en poco tiempo y con el mismo código!.
 
-Pero bueno, si estas aqui es porque ya sabes que es Flutter y quieres saber como desplegar tu app web hecha con Flutter en Vercel, ya que es una de las plataformas más populares para desplegar aplicaciones web, fácil de usar y sin ningún costo.
+Pero bueno, si estas aquí es porque ya sabes que es Flutter y quieres saber como desplegar tu app web hecha con Flutter en Vercel, ya que es una de las plataformas más populares para desplegar aplicaciones web, fácil de usar y sin ningún costo.
 
 Entonces, bajo la suposición de que ya tienes tu app hecha con Flutter junto con su respectivo repositorio en Github, y tu cuenta en Vercel, veamos los **2 sencillos** pasos para desplegar tu web!
 
 ## Paso 1: Crear un nuevo proyecto en vercel y conectarlo con tu repositorio de Github
 
-Simplemente crea un nuevo proyecto en Vercel y conectalo con tu repositorio de Github como ya lo has hecho en otras ocasiones, en este caso seria el repositorio de la app hecha con flutter que quieres desplegar.
+Simplemente crea un nuevo proyecto en Vercel y conéctalo con tu repositorio de Github como ya lo has hecho en otras ocasiones, en este caso sería el repositorio de la app hecha con flutter que quieres desplegar.
 
 ![Crea tu proyecto](paso1.PNG)
 
@@ -29,6 +29,8 @@ Como Vercel aún no cuenta con un template para desplegar Flutter, debemos confi
 **Install command:** *if cd flutter; then git pull && cd .. ; else git clone https://github.com/flutter/flutter.git -b stable; fi && ls && flutter/bin/flutter doctor && flutter/bin/flutter clean && flutter/bin/flutter config --enable-web*
 
 ![Configura tu proyecto](paso2.PNG)
+
+**Nota:** en la imágen anterior, puedes ver que agregué la opción *--web-renderer html* en la parte de build command, esto se explica al final de este post.
 
 ..y **LISTO!**, sólo tienes que dar click en el botón de DEPLOY y esperar a que se despliegue tu web!.
 
