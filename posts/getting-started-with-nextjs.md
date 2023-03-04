@@ -1,33 +1,32 @@
 ---
-title: Getting Started with Next.js
+title: Empezando con Next.js
 date: '2023-01-17'
 image: getting-started-with-nextjs.png
-excerpt: Next.js is a React framework that allows you to build static and server-side rendered applications. In this post, we'll learn how to get started with Next.js.
+excerpt: Next.js es un framework de React que te permite construir aplicaciones estáticas y del lado del servidor (server-side). En este post te cuento como
+empezar con Next.js.
 isFeatured: true
 ---
 
-NextJS is a framework for ReactJS.
+NextJS es un framework para ReactJS.
 
-Wait a second ... a "framework" for React? Isn't React itself already a framework for JavaScript?
+Espera un segundo..un "framework" para React? Acaso React no es ya un framework para JavaScript?
 
-Well ... first of all, React is a "library" for JavaScript. That seems to be important for some people.
+Bueno... primero que nada, React es una "librería" para JavaScript, lo cual parece ser importante para mucha gente..
 
-Not for me, but still, there is a valid point: React already is a framework / library for JavaScript. So it's already an extra layer on top of JS.
+Para mí no, pero aún así, hay un punto válido: React ya es un framework/librería por sí solo para Javascript, o sea es una capa extra que se agrega al lenguaje.
 
-## Why would we then need NextJS?
+## Entonces, porqué necesitaríamos NextJS?
 
-Because NextJS makes building React apps easier - especially React apps that should have server-side rendering (though it does way more than just take care of that).
+Porque NextJS hace aún más fácil, construir aplicaciones de React, especialmente las que deban tener renderizado del lado del servidor (server-side rendering), aunque sirve y facilita muchas cosas más y no solo para este propósito.
 
-In this article, we'll dive into the core concepts and features NextJS has to offer:
+Estos son los conceptos clave y características que NextJS ofrece:
 
-- File-based Routing
-- Built-in Page Pre-rendering
-- Rich Data Fetching Capabilities
-- Image Optimization
-- Much More
+- Ruteo con base en archivos (File-based Routing).
+- Pre-renderizado de páginas (Built-in Page Pre-rendering).
+- Características adicionales para obtención de datos.
+- Optimización de imágenes
+- Y mucho más.
 
-## File-based Routing
+## Ruteo con base en archivos
 
 ![Create routes via your file + folder structure](nextjs-file-based-routing.png)
-
-... More content ...
