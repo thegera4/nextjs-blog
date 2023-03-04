@@ -9,10 +9,10 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link href='/posts'>All Posts</Link>
+            <Link href='/posts'>Todos los posts</Link>
           </li>
           <li>
-            <Link href='/contact'>Contact Me</Link>
+            <Link href='/contact'>Contacto</Link>
           </li>
         </ul>
       </nav>

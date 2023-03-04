@@ -12,10 +12,10 @@ function Hero() {
           height={300} 
         />
       </div>
-      <h1>Hi, I'm Gerardo</h1>
+      <h1>Hola, Soy Gerardo</h1>
       <p>
-        I'm a fullstack web developer from Mexico. In this blog you will find articles about
-        different technologies that I use or find interesting to learn.
+        Soy un desarrollador fullstack de México. En este blog vas a encontrar art artículos sobre
+        diferentes tecnologías que encuentro interesantes o cosas que me han ayudado como programador.
       </p>
     </section>
   )
