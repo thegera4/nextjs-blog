@@ -9,11 +9,17 @@ export default function HomePage(props) {
   return (
     <>
       <Head>
-        <title>Welcome to my Blog</title>
+        <title>Bienvenido a mi blog</title>
         <meta 
           name="description" 
-          content="I post about programming,web development, and related stuff." 
+          content="Posteo sobre programacion en general, desarrollo, y cosas relacionadas." 
         />
+        <script 
+          async 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1515388210457824"
+          crossorigin="anonymous"
+        >
+        </script>
       </Head>
       <Hero />
       <FeaturedPosts posts={posts} />
