@@ -9,7 +9,7 @@ import tsx from 'react-syntax-highlighter/dist/cjs/languages/prism/tsx';
 import ts from 'react-syntax-highlighter/dist/cjs/languages/prism/typescript';
 import html from 'react-syntax-highlighter/dist/cjs/languages/prism/markup';*/
 import ReactMarkdown from 'react-markdown'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 
 SyntaxHighlighter.registerLanguage('js', js);
 SyntaxHighlighter.registerLanguage('css', css);

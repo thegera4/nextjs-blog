@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 import Hero from '../components/HomePage/Hero'
 import FeaturedPosts from '../components/HomePage/FeaturedPosts'
 
@@ -14,13 +15,18 @@ export default function HomePage(props) {
           name="description" 
           content="Posteo sobre programacion en general, desarrollo, y cosas relacionadas." 
         />
-        <script 
+        {/*<script 
           async 
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1515388210457824"
           crossorigin="anonymous"
         >
-        </script>
+        </script>*/}
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1515388210457824"
+          strategy="lazyOnload"
+        />
       </Head>
+
       <Hero />
       <FeaturedPosts posts={posts} />
     </>

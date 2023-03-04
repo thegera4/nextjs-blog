@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 import AllPosts from "@/components/Posts/AllPosts";
 import { getAllPosts } from "../../lib/posts-util";
 
@@ -12,12 +13,16 @@ export default function AllPostsPage(props) {
           name="description"
           content="Una lista de todos los posts de este sitio!"
         />
-        <script 
+        {/*<script 
           async 
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1515388210457824"
           crossorigin="anonymous"
         >
-        </script>
+        </script>*/}
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1515388210457824"
+          strategy="lazyOnload"
+        />
       </Head>
       <AllPosts posts={posts} />
     </>
