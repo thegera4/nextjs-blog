@@ -7,11 +7,17 @@ export default function AllPostsPage(props) {
   return (
     <>
       <Head>
-        <title>All Posts</title>
+        <title>Todos los Posts</title>
         <meta
           name="description"
-          content="A list of all posts in this site!"
+          content="Una lista de todos los posts de este sitio!"
         />
+        <script 
+          async 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1515388210457824"
+          crossorigin="anonymous"
+        >
+        </script>
       </Head>
       <AllPosts posts={posts} />
     </>

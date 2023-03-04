@@ -9,6 +9,12 @@ export default function PostDetailPage(props) {
       <Head>
         <title>{post.title}</title>
         <meta name="description" content={post.excerpt} />
+        <script 
+          async 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1515388210457824"
+          crossorigin="anonymous"
+        >
+        </script>
       </Head>
       <PostContent post={post} />
     </>

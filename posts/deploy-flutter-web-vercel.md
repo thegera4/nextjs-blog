@@ -32,7 +32,7 @@ Como Vercel aún no cuenta con un template para desplegar Flutter, debemos confi
 
 ..y **LISTO!**, sólo tienes que dar click en el botón de DEPLOY y esperar a que se despliegue tu web!.
 
-## Extra: Explicación de la opción *flutter build --web-renderer*
+## Extra: Explicación de la opción *--web-renderer*
 
 La opción *--web-renderer* es para especificar el renderizador que se usará para construir la aplicación web. Hay 2 opciones disponibles (3 con la opcion *auto* que se selecciona por default si no se especifica ninguna, pero en realidad la opción *auto* es la misma que html):
 
