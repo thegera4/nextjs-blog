@@ -10,7 +10,7 @@ A veces necesitamos guardar información en el navegador del usuario, por ejempl
 
 Una buena opción que tenemos para guardar esta información en el navegador, es en forma de cookies, las cuales son pequeños archivos de texto que se guardan en el navegador del usuario y que pueden ser accedidos por el servidor.
 
-En este post, te muestro como guardar/setear una cookie en tu app web hecha con Flutter, sin necesidad de instalar un paquete externo adicional y tan con solo 2 sencillos pasos...
+En este post, te muestro como guardar/setear una cookie en tu app web hecha con Flutter, sin necesidad de instalar un paquete externo adicional y solo con 2 sencillos pasos...
 
 ## Paso 1: Crear una clase para el manejo de cookies
 
