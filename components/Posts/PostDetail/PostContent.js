@@ -4,6 +4,7 @@ import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
 import atomDark from 'react-syntax-highlighter/dist/cjs/styles/prism/atom-dark';
 import js from 'react-syntax-highlighter/dist/cjs/languages/prism/javascript';
 import css from 'react-syntax-highlighter/dist/cjs/languages/prism/css';
+import dart from 'react-syntax-highlighter/dist/cjs/languages/prism/dart';
 /*import jsx from 'react-syntax-highlighter/dist/cjs/languages/prism/jsx';
 import tsx from 'react-syntax-highlighter/dist/cjs/languages/prism/tsx';
 import ts from 'react-syntax-highlighter/dist/cjs/languages/prism/typescript';
@@ -13,6 +14,7 @@ import Image from 'next/legacy/image'
 
 SyntaxHighlighter.registerLanguage('js', js);
 SyntaxHighlighter.registerLanguage('css', css);
+SyntaxHighlighter.registerLanguage('dart', dart);
 
 function PostContent(props) {
   const { post } = props

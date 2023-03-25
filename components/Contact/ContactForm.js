@@ -83,11 +83,11 @@ function ContactForm() {
 
   return (
     <section className={classes.contact}>
-    <h1>How can I help you?</h1>
+    <h1>Como puedo ayudarte?</h1>
       <form className={classes.form} onSubmit={sendMessageHandler}>
         <div className={classes.controls}>
           <div className={classes.control}>
-            <label htmlFor='email'>Your Email</label>
+            <label htmlFor='email'>Tu Email</label>
             <input 
               type='email' 
               id='email' 
@@ -100,7 +100,7 @@ function ContactForm() {
             />
           </div>
           <div className={classes.control}>
-            <label htmlFor='name'>Your Name</label>
+            <label htmlFor='name'>Tu Nombre</label>
             <input 
               type='text' 
               id='name' 
@@ -114,7 +114,7 @@ function ContactForm() {
           </div>
         </div>
         <div className={classes.control}>
-          <label htmlFor='message'>Your Message</label>
+          <label htmlFor='message'>Tu Mensaje</label>
           <textarea 
             id='message' 
             rows='5'
@@ -127,7 +127,7 @@ function ContactForm() {
           ></textarea>
         </div>
         <div className={classes.actions}>
-          <button>Send Message</button>
+          <button>Enviar</button>
         </div>
       </form>
       {notification && 
