@@ -138,7 +138,7 @@ try {
 
 Al setear la cookie, el navegador del usuario la guarda y la envía en cada petición que haga a mi servidor. Las cookies guardadas en el navegador del usuario, se pueden ver en la pestaña "Application" de la consola de desarrollador del navegador. En la siguiente imágen, se puede ver que la cookie "jwt" que guardé en mi aplicación:
 
-![Cookie 'jwt' que guarda el token](jwt-cookie.png)
+![Cookie 'jwt' que guarda el token](jwt-cookie.PNG)
 
 Listo! Esto es todo lo que hay que hacer para guardar una cookie en el navegador del usuario. Ahora, si quisieramos eliminar la cookie, solo tendríamos que llamar al método "removeCookie" de la clase "CookieManager" y pasarle como parámetro el nombre de la cookie que queremos eliminar. Por ejemplo, si quisiera eliminar la cookie "jwt" que guardé en mi aplicación, solo tendría que llamar al método "removeCookie" de la clase "CookieManager" y pasarle como parámetro "jwt", esto puede ser por ejemplo en el método "logout" para que cuando el usuario cierre sesión, se elimine la cookie que contiene el token de autenticación.
 
