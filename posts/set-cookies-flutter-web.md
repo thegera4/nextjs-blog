@@ -23,6 +23,7 @@ static getInstance() {
   return manager;
 }
 ```
+
 Luego creamos un método para agregar una cookie (yo lo nombré "addCookie"), el cual recibe como parámetros el nombre que queremos darle a la cookie y el valor que va a contener. En este método, usamos la propiedad "document.cookie" para agregar la cookie al navegador del usuario. A esta propiedad le pasamos las características que queremos para nuestra cookie en forma de string y separadas por punto y coma. Para poder acceder a la propiedad "document", debemos importar la librería "dart:html".
 
 ```dart
