@@ -15,7 +15,7 @@ function Hero() {
       <h1>Hola, Soy Gerardo</h1>
       <p>
         Soy un desarrollador fullstack de México. En este blog vas a encontrar artículos sobre
-        diferentes tecnologías que encuentro interesantes o que me han ayudado como programador.
+        diferentes tecnologías que encuentro interesantes o que me han ayudado como programador o en la vida cotidiana.
       </p>
     </section>
   )
