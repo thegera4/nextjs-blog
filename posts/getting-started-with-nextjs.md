@@ -3,7 +3,7 @@ title: Empezando con Next.js
 date: '2023-01-17'
 image: getting-started-with-nextjs.png
 excerpt: Next.js es un framework de React que te permite construir aplicaciones estáticas y del lado del servidor (server-side). En este post te cuento como empezar con Next.js
-isFeatured: true
+isFeatured: false
 ---
 
 NextJS es un framework para ReactJS.
